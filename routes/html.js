@@ -1,9 +1,8 @@
 
 
 module.exports = (app) => {
-
-app.get("/exercise", (req, res) => {
-    console.log("yes")
-    res.redirect("/exercise.html");
-})
+    app.get("/exercise", (req, res) => {
+        console.log(req)
+        res.redirect("/exercise.html")
+    })
 }
