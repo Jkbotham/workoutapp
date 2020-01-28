@@ -5,28 +5,39 @@ module.exports = (app) => {
 
     app.get("/api/workouts", (req, res) => {
         db.Workout.find({})
-        .then(results => {
-            console.log(results)
-            res.json(results)
-        })
-    })
+            .then(results => {
+                // console.log(results)
+                res.json(results)
+            });
+    });
 
+    app.post("/api/workouts", ({ body }, res) => {
+        db.Workout.create(body)
+            .then(results => {
+                // console.log("Insterted to db", body, "results =", results)
+                res.json(results)
+            });
+    });
 
     app.put("/api/workouts/:id", (req, res) => {
+        id = req.params.id
+        exercise = req.body
 
-        console.log(req.body, req.params.id)
-        // db.Workout.insert({_id: req.params.id})
-        // .then((results => {
-        //     console.log(results);
-        //     res.json(results)
-        // }))
-    })
+        db.Workout.findOneAndUpdate({ _id: id }, { $push: { exercises: exercise } })
+            .then(results => {
+                res.json(results);
+            })
+            .catch(err => { 
+                console.log(err) 
+            })
+    });
 
-    // app.post("/api/workouts", (req, res) => {
-    //     db.Workout.create({req.body})
-    // })
-    app.get("/api/workouts/ranges", (req, res) => {
-
+    app.get("/api/workouts/range", (req, res) => {
+        db.Workout.find({})
+            .then(results => {
+                // console.log(results)
+                res.json(results)
+            })
     })
 
 
