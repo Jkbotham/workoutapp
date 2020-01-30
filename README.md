@@ -2,7 +2,7 @@
 
 This application can be used to track works so the user can view their progress in the stats portion of the application.
 
-
+[Deployed Application](https://wotrack.herokuapp.com/)
 
 ### Front Page
 
