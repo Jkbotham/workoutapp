@@ -135,7 +135,7 @@ let workoutSeed = [
   }
 ];
 
-console.log(JSON.stringify(workoutSeed))
+console.log(JSON.stringify(workoutSeed));
 db.Workout.deleteMany({})
   .then(() => db.Workout.collection.insertMany(workoutSeed))
   .then(data => {
