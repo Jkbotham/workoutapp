@@ -13,7 +13,7 @@
     
     Workout Page
 
-    -Create new workout plans (This would be a collection of workouts)
+    <!-- -Create new workout plans (This would be a collection of workouts) -->
     -Edit workout plans
     -Create New Workout
     -Edit exsisting workouts
@@ -70,3 +70,45 @@ Workouts -
         Differnt workout types:
             Same Each week
             Changes throughout workplan
+
+
+
+            Workout Plan
+ {
+     id: 2,
+     name: "whtever",
+     exercises: [1,2,3,4]
+
+     }
+ }
+
+
+ Completed Workout
+ {
+    id: '1',
+    exercise: {
+      id: '1',
+      name: 'Bench Press'
+    },
+    sets: [
+      {
+        duration: '30s',
+        reps: 5,
+        weight: 80
+      }
+    ]
+  }
+
+
+  // USER: Just an id and a name contact information.get
+
+// WorkoutPlan:  Name id discription, and an array of workout id's
+
+// Workout:
+
+// Completed Exercise {
+// user.id
+// Set: id: duration, reps, weight, distance
+// Exercises : Just the name an id discript, and maybe links to demonstration
+
+// }

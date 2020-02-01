@@ -1,13 +1,16 @@
+
+// eslint-disable-next-line no-unused-vars
 const API = {
   async getLastWorkout() {
     let res;
     try {
       res = await fetch("/api/workouts");
     } catch (err) {
-      console.log(err)
+      console.log(err);
     }
+    
     const json = await res.json();
-
+    console.log(json);
     return json[json.length - 1];
   },
   async addExercise(data) {
@@ -36,7 +39,7 @@ const API = {
   },
 
   async getWorkoutsInRange() {
-    const res = await fetch(`/api/workouts/range`);
+    const res = await fetch("/api/workouts/range");
     const json = await res.json();
 
     return json;
