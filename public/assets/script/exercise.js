@@ -18,6 +18,7 @@ let workoutType = null;
 let shouldNavigateAway = false;
 
 async function initExercise() {
+  // API.test();
   let workout;
 
   if (location.search.split("=")[1] === undefined) {

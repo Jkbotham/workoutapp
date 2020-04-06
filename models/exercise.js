@@ -17,7 +17,7 @@ const exerciseSchema = new Schema({
   },
   set: [{
     userId: {
-      type: Schema.Types.ObjectId, ref: "db.User"
+      type: Schema.Types.ObjectId, ref: "User"
     },
     reps: {
       type: Number
@@ -40,7 +40,6 @@ const exerciseSchema = new Schema({
   }]
 }
 );
-
 const Exercise = mongoose.model("Exercise", exerciseSchema);
 
 module.exports = Exercise;

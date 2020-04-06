@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-// const Workout = require("../models/workout");
+require("../models/workout");
 
 const Schema = mongoose.Schema;
 
@@ -26,7 +26,9 @@ const userSchema = new Schema(
             type: String,
             // unique: true
         },
-        workouts: [{ type: Schema.Types.ObjectId, ref: "Workout" }]
+        workouts: [{ 
+            type: Schema.Types.ObjectId, ref: "Workout" 
+        }]
     });
 
 const User = mongoose.model("User", userSchema);

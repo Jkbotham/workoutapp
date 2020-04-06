@@ -44,4 +44,21 @@ const API = {
 
     return json;
   },
+  // async test () {
+
+  //   const data = {
+  //     exerciseId: "5e3755b91012cc3f3413f200",
+  //     userId: "5e375a75eb6afc4544f8b1ad",
+  //     reps: 2,
+  //     weight: 10
+  //   };
+  //   const res = await fetch("/set/add", {
+  //     method: "POST",
+  //     body: JSON.stringify(data),
+  //     headers: { "Content-Type": "application/json" }
+  //   });
+
+  //   const json = await res.json();
+  //   return json;
+  // }
 };

@@ -1,6 +1,6 @@
-let mongoose = require("mongoose");
-let db = require("../models");
-const exerciseDB = require("../assets/exerciseData");
+const mongoose = require("mongoose");
+const db = require("../../../models");
+const exerciseDB = require("./exerciseData");
 
 mongoose.connect("mongodb://localhost/workout", {
   useNewUrlParser: true,
