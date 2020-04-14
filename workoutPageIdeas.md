@@ -165,40 +165,78 @@ Dumbbell Rear Delt Fly | 2 | 8
 Zottman Curl | 2 | 8
 Close Grip Dumbbell Press | 2 | 8
 
--- Chest --
-incline db bench : 4 sets 12/10/10/8
-    12: 20
-    10: 25
-    10: 30
-    8: 35
+    -- Chest --
+    incline db bench : 4 sets 12/10/10/8
+        12: 20
+        10: 25
+        10: 30
+        8: 35
 
-db Bench : 4 sets 12/10/10/8
-    12: 30
-    10: 35
-    10: 40
-    8:  45
+    db Bench : 4 sets 12/10/10/8
+        12: 30
+        10: 35
+        10: 40
+        8:  45
 
-incline db fly : 3 sets 12/12/12
-    12: 15 
-    12: 15
-    12: 15
+    incline db fly : 3 sets 12/12/12
+        12: 15 
+        12: 15
+        12: 15
+        
+        Comments: Shoulder(Right) Hurt on this one
+
+    -- Tri -- 
+
+    Db Skullcrusher : 3 sets 12/12/12
+        12: 15
+        12: 15
+        12: 15
+
+    Db close grip bench press : 3 sets 8/8/8
+        8: 25
+        8: 25
+        8: 25
+
+    One arm db extension : 3 sets 12/12/12
+        12: 10
+        12: 10
+        12: 10
+        
+
+## Day 2 --
+    -- Back --
+
+    One Arm Dumbell Row: 5 sets 12,10,10,8,6
+        12:
+        10:
+        10:
+        8:
+        6:
     
-    Comments: Shoulder(Right) Hurt on this one
+    Bent Over dumbbell Row: 5 sets 12,10,10,8,6
+        12:
+        10:
+        10:
+        8:
+        6:
 
--- Tri -- 
+    Dumbbell Pullover: 2 sets 12, 10
+        12:
+        10:
 
-Db Skullcrusher : 3 sets 12/12/12
-    12: 15
-    12: 15
-    12: 15
-
-Db close grip bench press : 3 sets 8/8/8
-    8: 25
-    8: 25
-    8: 25
-
-One arm db extension : 3 sets 12/12/12
-    12: 10
-    12: 10
-    12: 10
+    -- Biceps --
     
+    Incline dumbbell Curl: 3 sets 10
+        10:
+        10:
+        10:
+    
+    Standing Dumbbell Curl:  3 sets 10
+        10:
+        10:
+        10:
+    
+    Cross Body Hammer Curl:  3 sets 10
+        10:
+        10:
+        10:

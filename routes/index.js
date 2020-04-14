@@ -4,7 +4,7 @@ const apiRoutes = require("./api")
 
 //API Routes
 
-router.use("/api", apiRoutes)
+router.use("/api", apiRoutes);
 
 //This is returning an error in the terminal. The path doesn't exist.
 //Commented until fixed.

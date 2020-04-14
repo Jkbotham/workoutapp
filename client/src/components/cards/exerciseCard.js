@@ -5,6 +5,7 @@ import "./card.css"
 
 
 function workoutCard(props) {
+    
     const reps = props.workout.reps
     return (
             <Card className="exerciseCard">

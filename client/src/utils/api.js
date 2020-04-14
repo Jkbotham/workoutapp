@@ -1,7 +1,10 @@
 import axios from "axios";
 
 export default {
-    workout: function (workoutID){
-        return axios.get("/api/workout/" + workoutID)
+    workout: function (id){
+        return axios.get("/api/workout/" + id)
+    },
+    getExercises: function () {
+        return axios.get("/api/exercise")
     }
 }
